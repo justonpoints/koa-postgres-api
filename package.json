@@ -1,0 +1,36 @@
+{
+  "name": "koa-neo4j-passport-api",
+  "version": "0.0.1",
+  "description": "koa-neo4j-postgres-api application",
+  "keywords": [
+    "koa",
+    "api",
+    "postgres",
+    "passport"
+  ],
+  "main": "index",
+  "author": {
+    "name": "Juston Points",
+    "email": "justonpoints@gmail.com"
+  },
+  "repository": {
+  },
+  "dependencies": {
+    "koa": "*",
+    "koa-better-ratelimit": "*",
+    "koa-compress": "*",
+    "koa-generic-session":"*",
+    "koa-logger": "*",
+    "koa-mount": "*",
+    "koa-passport":"*",
+    "passport-local":"*",
+    "koa-request":"*",
+    "koa-router": "*",
+    "koa-pg":"*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.11.13"
+  },
+  "devDependencies": {}
+}
